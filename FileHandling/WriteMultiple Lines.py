@@ -1,0 +1,6 @@
+f = open('textdata.txt', 'w+')
+f.write('Hi \nThis is sreenivas \nFrom AP')
+f.seek(0,0)
+d = f.read()
+print(d)
+f.close()
